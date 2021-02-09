@@ -37,7 +37,7 @@ public class MainApplication {
         User user1 = bean.user01();
         System.out.println(user == user1);
 
-        //啊
+        //
         User user01 = run.getBean("user01", User.class);
         Pet tom = run.getBean("tom", Pet.class);
         System.out.println("用户的宠物: "+(user01.getPet()==tom));
